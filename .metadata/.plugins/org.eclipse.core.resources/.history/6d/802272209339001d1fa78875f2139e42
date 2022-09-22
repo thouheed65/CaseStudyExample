@@ -1,0 +1,12 @@
+package com.sonata.mvc;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+//@SpringBootApplication
+//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+//@ComponentScan({"com.sonata.controller"})
+@SpringBootApplication(scanBasePackages={
+"com.sonata.mvc.controller", "com.sonata.mvc"})
+public class SampleProjectApplication {
+
+}

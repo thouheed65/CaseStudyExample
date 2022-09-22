@@ -1,0 +1,27 @@
+package com.sonata.mvc.test;
+
+import org.junit.jupiter.api.Test;
+
+
+
+import com.sonata.mvc.model.Product;
+
+
+
+public class ProductTest {
+    private String s;
+    //public Producttest(String s) {
+    
+        @Test
+        public void test() {
+     Product pn=new Product();
+     
+        Object bike = null;
+        Object prodName = bike;
+        assertEquals(prodName,"car");
+}
+        private void assertEquals(Object prodName, String string) {
+            
+            
+        }
+}
